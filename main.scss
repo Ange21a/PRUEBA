@@ -1,0 +1,60 @@
+//variables
+$primary-color: #34495e; //Define el color primario que se usará como fondo de la pagina 
+$secundary-color: #3498db; //Define un color secundario que se usara en el header y footer
+$font-family: Arial,  sans-serif; //estabece la familia tipografico principal como arial, con una alternativa sans-serif
+$base-font-size: 16px; // define un tamaño de fuente base de pixeles
+
+//Estilos generales
+body {
+    font-family: $font-family; // aplica la fuente definida a todo el cuerpo del documento
+    margin: 0;  //elimina el margen pedeterminado del navegador en el cuepo 
+    padding: 0;  // elimina el padding predeterminado del navergador en el cuerpo
+    background-color: $primary-color; //Establece el color de fondo del cuerpo primarion definido
+    color: white //Definir el color del texto como blanco para que contraste con el fondo 
+}
+
+header {
+background-color: $secundary-color; // establece el color del fonde del header al colr
+text-align: center; // centra el contenido del header
+padding: 20px;// agrega un relleno de 20 pixciles alrededor del contenido del header
+}
+
+h1 {
+    font-size: 2rem; //Establece el tamaño de la fuente del encabezado h1
+    margin: 0; //Eliminar el margen predeterminado de los navegadores (aplica al encabezado)
+}
+
+main {
+    max-width: 800px; //Estableces un ancho maximo de 800 px el contenido principal 
+    margin: 20px auto; //Centra el main de forma horizontal y agrega un margen superior  e inferior de 20px
+    padding: 20px; //agrega un relleno de 20 px dentro del main
+    background-color: white; // estaclece el color de fondo del main como blanco
+    border-radius: 5px; //redondea las esquinas del main como un radio de 5 px
+    box-shadow: 0 0 10px rgb(0, 0, 0.1); //agrega una sombra sutil alrededor de main
+}
+
+.section {  //estilos para las secciones dentro del main
+    margin-bottom: 20px; //agrega un margen inferior de 20 px a cada seccion
+
+}
+
+h2 {
+    font-size: 1.5 rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+p { //estilos para los parrafos dentro de la secciones
+    font-size: 1rem; //establece el tamaño de la fuente del parrafo 1 rem
+    color: #333; //define el color del texto como un gris oscuro
+}
+
+footer{
+    text-align: center; //centra el contenido del footer
+    padding: 10px; //Agrega un relleno de 10px alrededor del contenido del footer
+    background-color: $secundary-color; //establece el color de fondo del footer
+}
+
+p{ //estilos para el parrafo dentro del footer
+    margin: 0; //elimina el margen predeterminado en el parrafo
+}
